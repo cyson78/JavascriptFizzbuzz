@@ -1,0 +1,19 @@
+<!-- /*Count 1-100, but don't print 7, 12, 22, 64, 90*/ -->
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+	for (x=0; x<=100; x++)
+	{
+		if (x==7 || x==12 || x==22 || x==64 || x==90)
+		{
+			continue;
+		}
+		document.write(x + "<br>");
+	}
+</script>
+
+</body>
+</html>
